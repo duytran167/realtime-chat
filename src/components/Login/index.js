@@ -44,13 +44,13 @@ export default function Login() {
               <div className="d-flex flex-column ">
                 <p className="text-muted mb-2">Continue with...</p>
                 <Row>
-                  <div class="d-flex align-items-center ">
-                    <a class="box me-2 selectio">
+                  <div className="d-flex align-items-center ">
+                    <div  className="box me-2 selectio">
                       <FontAwesomeIcon icon={faFacebookSquare} size="3x" style={{ color: 'gray', cursor: 'pointer' }} onClick={() => handleLogin(fbProvider)} />
-                      <p class="mb-0">Facebook</p></a>
-                    <a class="box me-2 selectio">  <FontAwesomeIcon icon={faGoogle} size="3x" style={{ color: 'gray', cursor: 'pointer' }} onClick={() => handleLogin(googleProvider)} />
-                      <p class="mb-0">Google</p>
-                    </a>
+                      <p className="mb-0">Facebook</p></div>
+                      <div  className="box me-2 selectio"> <FontAwesomeIcon icon={faGoogle} size="3x" style={{ color: 'gray', cursor: 'pointer' }} onClick={() => handleLogin(googleProvider)} />
+                      <p className="mb-0">Google</p>
+                    </div>
                   </div>
                 </Row>
               </div>
