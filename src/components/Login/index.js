@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookSquare, faGoogle } from "@fortawesome/free-brands-svg-icons"
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 
@@ -61,6 +61,12 @@ export default function Login() {
           </div>
         </div>
       </div >
+      <MessengerCustomerChat
+    pageId="110046237257685"
+    appId="1126672094821122"
+    
+  />,
     </div >
+    
   );
 }
